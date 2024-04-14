@@ -26,6 +26,7 @@
     "tags": ["Select"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 17,
     "needsErrorInfo": false,
     "mobileBottomRow": 15,
     "widgetName": "MultiSelect1",
@@ -69,6 +70,7 @@
     "mobileTopRow": 8,
     "optionLabel": "name",
     "responsiveBehavior": "fill",
+    "originalTopRow": 10,
     "mobileLeftColumn": 23,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
