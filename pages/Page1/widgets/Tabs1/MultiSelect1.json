@@ -31,6 +31,7 @@
     "mobileBottomRow": 15,
     "widgetName": "MultiSelect1",
     "isFilterable": true,
+    "dynamicPropertyPathList": [{"key": "onOptionChange"}],
     "displayName": "MultiSelect",
     "searchTags": [
         "dropdown",
@@ -73,5 +74,6 @@
     "originalTopRow": 10,
     "mobileLeftColumn": 23,
     "maxDynamicHeight": 9000,
+    "onOptionChange": "{{}}",
     "minDynamicHeight": 4
 }
