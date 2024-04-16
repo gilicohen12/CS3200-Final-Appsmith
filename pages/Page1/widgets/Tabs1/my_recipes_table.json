@@ -58,7 +58,7 @@
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 43,
-    "widgetName": "Table4",
+    "widgetName": "my_recipes_table",
     "defaultPageSize": 0,
     "columnOrder": [],
     "dynamicPropertyPathList": [{"key": "tableData"}],

@@ -35,7 +35,7 @@
           "value": "{{appsmith.user.email}}"
         }
       ],
-      "body": "",
+      "body": "{{add_new_recipe.formData}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -56,6 +56,9 @@
       },
       {
         "key": "queryParameters[0].value"
+      },
+      {
+        "key": "body"
       }
     ],
     "isValid": true,
@@ -63,6 +66,7 @@
     "messages": [],
     "jsonPathKeys": [
       "Username",
+      "add_new_recipe.formData",
       "appsmith.user.email"
     ],
     "userSetOnLoad": false,
