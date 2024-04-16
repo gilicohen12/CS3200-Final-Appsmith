@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 650,
+          "bottomRow": 800,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -42,6 +42,17 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_get_my_recipes",
+              "name": "get_my_recipes",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Username",
+                "appsmith.user.email"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
