@@ -32,7 +32,7 @@
       "queryParameters": [
         {
           "key": "Username",
-          "value": "{{appsmith.user.email}}"
+          "value": "{{appsmith.store.Username}}"
         }
       ],
       "body": "{{add_new_recipe.formData}}",
@@ -55,10 +55,10 @@
         "key": "path"
       },
       {
-        "key": "queryParameters[0].value"
+        "key": "body"
       },
       {
-        "key": "body"
+        "key": "queryParameters[0].value"
       }
     ],
     "isValid": true,
@@ -67,7 +67,7 @@
     "jsonPathKeys": [
       "Username",
       "add_new_recipe.formData",
-      "appsmith.user.email"
+      "appsmith.store.Username"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
