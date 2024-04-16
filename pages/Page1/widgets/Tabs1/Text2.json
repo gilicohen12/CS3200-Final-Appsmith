@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 3,
-    "bottomRow": 7,
+    "bottomRow": 8,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{appsmith.user.name || appsmith.user.email}}'s Blog",
+    "text": "{{appsmith.store.Username || appsmith.user.email}}'s Blog",
     "key": "s6cx1uecef",
     "isDeprecated": false,
     "rightColumn": 17,
@@ -50,9 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 3,
     "responsiveBehavior": "fill",
+    "originalTopRow": 3,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
+    "originalBottomRow": 7,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
