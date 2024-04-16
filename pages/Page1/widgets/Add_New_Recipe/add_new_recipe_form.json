@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{closeModal('Add_New_Recipe');}}",
+    "onSubmit": "{{add_new_recipe.run().then(() => {\n  closeModal('');\n});}}",
     "topRow": 7,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -136,7 +136,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 46,
+    "originalBottomRow": 70,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
