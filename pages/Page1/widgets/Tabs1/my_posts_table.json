@@ -57,20 +57,20 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713299014798,
+    "columnUpdatedAt": 1713302461467,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 44,
-    "widgetName": "Table4",
+    "widgetName": "my_posts_table",
     "defaultPageSize": 0,
     "columnOrder": [
         "BlogID",
-        "Content",
-        "Title"
+        "Title",
+        "Content"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 42,
+    "bottomRow": 54,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -80,7 +80,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "Content": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Content\"]))}}",
+            "computedValue": "{{my_posts_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Content\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Content",
@@ -111,7 +111,7 @@
             "verticalAlignment": "CENTER"
         },
         "BlogID": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"BlogID\"]))}}",
+            "computedValue": "{{my_posts_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"BlogID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "BlogID",
@@ -142,7 +142,7 @@
             "verticalAlignment": "CENTER"
         },
         "Title": {
-            "computedValue": "{{Table4.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Title\"]))}}",
+            "computedValue": "{{my_posts_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Title\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Title",

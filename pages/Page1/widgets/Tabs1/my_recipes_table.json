@@ -65,7 +65,7 @@
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 42,
-    "widgetName": "Table1",
+    "widgetName": "my_recipes_table",
     "defaultPageSize": 0,
     "columnOrder": [
         "BlogID",
@@ -88,7 +88,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "Origin": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Origin\"]))}}",
+            "computedValue": "{{my_recipes_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Origin\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Origin",
@@ -122,7 +122,7 @@
             "verticalAlignment": "CENTER"
         },
         "Directions": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Directions\"]))}}",
+            "computedValue": "{{my_recipes_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Directions\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Directions",
@@ -156,7 +156,7 @@
             "verticalAlignment": "CENTER"
         },
         "BlogID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"BlogID\"]))}}",
+            "computedValue": "{{my_recipes_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"BlogID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "BlogID",
@@ -190,7 +190,7 @@
             "verticalAlignment": "CENTER"
         },
         "RecipeID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RecipeID\"]))}}",
+            "computedValue": "{{my_recipes_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RecipeID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "RecipeID",
@@ -224,7 +224,7 @@
             "verticalAlignment": "CENTER"
         },
         "TagID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"TagID\"]))}}",
+            "computedValue": "{{my_recipes_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"TagID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "TagID",
@@ -258,7 +258,7 @@
             "verticalAlignment": "CENTER"
         },
         "Story": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Story\"]))}}",
+            "computedValue": "{{my_recipes_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Story\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Story",
@@ -292,7 +292,7 @@
             "verticalAlignment": "CENTER"
         },
         "Name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
+            "computedValue": "{{my_recipes_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Name",

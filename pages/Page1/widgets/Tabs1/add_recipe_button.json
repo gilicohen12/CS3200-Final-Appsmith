@@ -3,7 +3,8 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 13,
-    "widgetName": "Button1",
+    "widgetName": "add_recipe_button",
+    "onClick": "{{showModal('Add_New_Recipe');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -19,7 +20,7 @@
     "mobileRightColumn": 33,
     "animateLoading": true,
     "parentColumnSpace": 11.020751953125,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 23,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},

@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_my_posts",
+    "name": "add_new_post",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -30,9 +30,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{{add_new_post_form.formData}}",
       "bodyFormData": [],
-      "httpMethod": "GET",
+      "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
@@ -44,25 +44,29 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "path"
+      },
+      {
+        "key": "body"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "add_new_post_form.formData",
       "appsmith.store.Username"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-16T20:22:24Z"
+    "createdAt": "2024-04-16T20:57:14Z"
   },
-  "id": "Page1_get_my_posts",
+  "id": "Page1_add_new_post",
   "deleted": false,
-  "gitSyncId": "66183f05b2a21e0557e7d49f_661ede00dc7128006cf89ea6"
+  "gitSyncId": "66183f05b2a21e0557e7d49f_661ee62adc7128006cf89ea8"
 }
