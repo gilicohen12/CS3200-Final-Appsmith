@@ -57,7 +57,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713112699633,
+    "columnUpdatedAt": 1713221476652,
     "originalBottomRow": 42,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -131,7 +131,7 @@
             "allowCellWrapping": false,
             "index": 1,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "MealID",
             "fontStyle": "",
             "textColor": "",
