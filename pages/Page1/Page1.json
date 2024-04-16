@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 650,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -42,6 +42,27 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_get_my_posts",
+              "name": "get_my_posts",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.Username"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_get_my_recipes",
+              "name": "get_my_recipes",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.Username",
+                "appsmith.user.email"
+              ],
               "timeoutInMillisecond": 10000
             }
           ],
