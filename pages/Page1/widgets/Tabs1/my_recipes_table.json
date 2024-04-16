@@ -98,7 +98,7 @@
     "hideCard": false,
     "mobileRightColumn": 35,
     "parentColumnSpace": 11.020751953125,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
     "borderWidth": "1",
     "primaryColumns": {
         "Origin": {
@@ -578,6 +578,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{showModal('Update_Recipe');}}",
     "key": "o01m6fzgku",
     "canFreezeColumn": true,
     "isDeprecated": false,
