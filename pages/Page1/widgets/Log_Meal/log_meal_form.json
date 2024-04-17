@@ -2,9 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-
     "onSubmit": "{{add_new_meal.run().then(() => {\n  closeModal('Log_Meal');\n  get_all_meals.run();\n});}}",
-
     "topRow": 6,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -186,11 +184,9 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-              
                 "position": 3,
                 "isDisabled": false,
                 "sourceData": 5,
-
                 "fieldType": "Number Input"
             },
             "MealType": {
@@ -233,12 +229,10 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-
                 "position": 6,
                 "isDisabled": false,
                 "sourceData": 0,
-
-              "fieldType": "Number Input"
+                "fieldType": "Number Input"
             },
             "Grains": {
                 "labelTextSize": "0.875rem",
@@ -257,9 +251,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-
                 "position": 7,
-
                 "isDisabled": false,
                 "sourceData": 0,
                 "fieldType": "Number Input"
@@ -283,9 +275,7 @@
                 "iconAlign": "left",
                 "position": 10,
                 "isDisabled": false,
-
                 "sourceData": 48,
-
                 "fieldType": "Number Input"
             },
             "Fats": {
@@ -305,11 +295,9 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-
                 "position": 5,
                 "isDisabled": false,
                 "sourceData": 2,
-
                 "fieldType": "Number Input"
             },
             "Veggie": {
@@ -329,11 +317,9 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-
                 "position": 9,
                 "isDisabled": false,
                 "sourceData": 1,
-
                 "fieldType": "Number Input"
             },
             "MealID": {
@@ -375,11 +361,9 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-
                 "position": 4,
                 "isDisabled": false,
                 "sourceData": "FruitSalad",
-
                 "fieldType": "Text Input"
             },
             "Date": {
@@ -420,19 +404,15 @@
                 "dataType": "string",
                 "accessor": "Ing_Name",
                 "isVisible": true,
-
                 "label": "Ing Name",
-
                 "originalIdentifier": "Ing_Name",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(log_meal_form.sourceData, log_meal_form.formData, log_meal_form.fieldState)}}",
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-
                 "position": 4,
                 "isDisabled": false,
                 "sourceData": "Apple",
-
                 "fieldType": "Text Input"
             },
             "Protein": {
@@ -454,9 +434,7 @@
                 "iconAlign": "left",
                 "position": 8,
                 "isDisabled": false,
-
                 "sourceData": 8,
-
                 "fieldType": "Number Input"
             }
         },

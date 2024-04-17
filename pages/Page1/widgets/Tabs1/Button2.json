@@ -4,9 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 12,
     "widgetName": "Button2",
-
     "onClick": "{{showModal('Log_Meal').then(() => {}).catch(() => {});}}",
-
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
