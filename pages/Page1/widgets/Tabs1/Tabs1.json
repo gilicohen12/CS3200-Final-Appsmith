@@ -212,7 +212,7 @@
     "dynamicHeight": "AUTO_HEIGHT",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "widgetId": "bpsdp9jjty",
-    "defaultTab": "Select User",
+    "defaultTab": "My Log",
     "shouldShowTabs": true,
     "minWidth": 450,
     "tabsObj": {
