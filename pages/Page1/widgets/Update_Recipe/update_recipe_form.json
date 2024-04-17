@@ -238,7 +238,7 @@
                 "iconAlign": "left",
                 "position": 7,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 0,
                 "fieldType": "Number Input"
             },
             "Directions": {
@@ -282,7 +282,7 @@
                 "iconAlign": "left",
                 "position": 12,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 0,
                 "fieldType": "Number Input"
             },
             "RecipeID": {
@@ -304,7 +304,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 45,
+                "sourceData": 56,
                 "fieldType": "Number Input"
             },
             "Vegan": {
@@ -392,7 +392,7 @@
                 "iconAlign": "left",
                 "position": 13,
                 "isDisabled": false,
-                "sourceData": 41,
+                "sourceData": 5,
                 "fieldType": "Number Input"
             },
             "FatFree": {
@@ -436,7 +436,7 @@
                 "iconAlign": "left",
                 "position": 10,
                 "isDisabled": false,
-                "sourceData": 0,
+                "sourceData": 1,
                 "fieldType": "Number Input"
             },
             "Story": {
@@ -480,7 +480,7 @@
                 "iconAlign": "left",
                 "position": 8,
                 "isDisabled": false,
-                "sourceData": 0,
+                "sourceData": 1,
                 "fieldType": "Number Input"
             }
         },

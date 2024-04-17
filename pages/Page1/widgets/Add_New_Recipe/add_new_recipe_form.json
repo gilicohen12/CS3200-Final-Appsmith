@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{add_new_recipe.run().then(() => {\n  closeModal('');\n});}}",
+    "onSubmit": "{{add_new_recipe.run().then(() => {\n  closeModal('');\n  get_my_recipes.run();\n});}}",
     "topRow": 7,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,

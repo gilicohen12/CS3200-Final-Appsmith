@@ -1,7 +1,7 @@
 {
     "needsErrorInfo": false,
     "mobileBottomRow": 5,
-    "widgetName": "Text10",
+    "widgetName": "Text11",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -26,19 +26,19 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Update Recipe",
-    "key": "ubdjjhohly",
+    "text": "Update Post",
+    "key": "45zuj3jo0l",
     "isDeprecated": false,
-    "rightColumn": 30,
+    "rightColumn": 41,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "2oey3xpmlj",
+    "widgetId": "g4ad3t07gz",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "qqluo1l3vb",
+    "parentId": "re72z09894",
     "tags": [
         "Suggested",
         "Content"

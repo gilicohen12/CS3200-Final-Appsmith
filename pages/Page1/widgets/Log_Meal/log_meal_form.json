@@ -2,7 +2,9 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{add_new_meal.run().then(() => {\n  closeModal('Log_Meal');\n});}}",
+
+    "onSubmit": "{{add_new_meal.run().then(() => {\n  closeModal('Log_Meal');\n  get_all_meals.run();\n});}}",
+
     "topRow": 6,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -14,7 +16,6 @@
         {"key": "submitButtonStyles.borderRadius"},
         {"key": "resetButtonStyles.buttonColor"},
         {"key": "resetButtonStyles.borderRadius"},
-        {"key": "sourceData"},
         {"key": "schema.__root_schema__.children.Date.borderRadius"},
         {"key": "schema.__root_schema__.children.Date.accentColor"},
         {"key": "schema.__root_schema__.children.MealID.borderRadius"},
@@ -185,9 +186,11 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 9,
+              
+                "position": 3,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 5,
+
                 "fieldType": "Number Input"
             },
             "MealType": {
@@ -208,7 +211,7 @@
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(log_meal_form.sourceData, log_meal_form.formData, log_meal_form.fieldState)}}",
                 "children": {},
                 "options": "[\n  {\n    \"label\": \"Breakfast\",\n    \"value\": \"Breakfast\"\n  },\n  {\n    \"label\": \"Lunch\",\n    \"value\": \"Lunch\"\n  },\n  {\n    \"label\": \"Dinner\",\n    \"value\": \"Dinner\"\n  },\n\t{\n    \"label\": \"Snack\",\n    \"value\": \"Snack\"\n  }\n]",
-                "position": 2,
+                "position": 1,
                 "isDisabled": false,
                 "sourceData": "",
                 "fieldType": "Select"
@@ -230,10 +233,12 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 5,
+
+                "position": 6,
                 "isDisabled": false,
-                "sourceData": 1,
-                "fieldType": "Number Input"
+                "sourceData": 0,
+
+              "fieldType": "Number Input"
             },
             "Grains": {
                 "labelTextSize": "0.875rem",
@@ -252,7 +257,9 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 6,
+
+                "position": 7,
+
                 "isDisabled": false,
                 "sourceData": 0,
                 "fieldType": "Number Input"
@@ -276,7 +283,9 @@
                 "iconAlign": "left",
                 "position": 10,
                 "isDisabled": false,
-                "sourceData": 1,
+
+                "sourceData": 48,
+
                 "fieldType": "Number Input"
             },
             "Fats": {
@@ -296,9 +305,11 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 3,
+
+                "position": 5,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 2,
+
                 "fieldType": "Number Input"
             },
             "Veggie": {
@@ -318,9 +329,11 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 11,
+
+                "position": 9,
                 "isDisabled": false,
-                "sourceData": 0,
+                "sourceData": 1,
+
                 "fieldType": "Number Input"
             },
             "MealID": {
@@ -340,7 +353,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 1,
+                "position": 11,
                 "isDisabled": false,
                 "sourceData": 9,
                 "fieldType": "Number Input"
@@ -362,9 +375,11 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
+
                 "position": 4,
                 "isDisabled": false,
                 "sourceData": "FruitSalad",
+
                 "fieldType": "Text Input"
             },
             "Date": {
@@ -405,15 +420,19 @@
                 "dataType": "string",
                 "accessor": "Ing_Name",
                 "isVisible": true,
+
                 "label": "Ing Name",
+
                 "originalIdentifier": "Ing_Name",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(log_meal_form.sourceData, log_meal_form.formData, log_meal_form.fieldState)}}",
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 7,
+
+                "position": 4,
                 "isDisabled": false,
-                "sourceData": "Banana",
+                "sourceData": "Apple",
+
                 "fieldType": "Text Input"
             },
             "Protein": {
@@ -435,7 +454,9 @@
                 "iconAlign": "left",
                 "position": 8,
                 "isDisabled": false,
-                "sourceData": 2,
+
+                "sourceData": 8,
+
                 "fieldType": "Number Input"
             }
         },
@@ -458,7 +479,7 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "PRIMARY"
     },
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
     "bottomRow": 106,
     "fieldLimitExceeded": false,
@@ -469,7 +490,7 @@
     "parentColumnSpace": 6.9375,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
-    "sourceData": "{{Table2.selectedRow}}",
+    "sourceData": "",
     "resetButtonLabel": "Reset",
     "key": "v8zvpfsw7k",
     "backgroundColor": "#fff",
