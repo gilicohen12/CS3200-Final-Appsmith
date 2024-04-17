@@ -21,6 +21,7 @@
     "leftColumn": 32,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
+    "showInlineEditingOptionDropdown": true,
     "flexVerticalAlignment": "start",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
@@ -57,7 +58,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713302461467,
+    "columnUpdatedAt": 1713321168337,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 44,
@@ -76,7 +77,7 @@
     "hideCard": false,
     "mobileRightColumn": 64,
     "parentColumnSpace": 11.020751953125,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
     "borderWidth": "1",
     "primaryColumns": {
         "Content": {
@@ -173,6 +174,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{showModal('Update_Post');}}",
     "key": "j2lzg0es35",
     "canFreezeColumn": true,
     "isDeprecated": false,
