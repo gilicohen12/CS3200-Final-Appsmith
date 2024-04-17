@@ -29,18 +29,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_get_my_posts",
-              "name": "get_my_posts",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.Username"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
               "id": "Page1_get_all_meals",
               "name": "get_all_meals",
               "confirmBeforeExecute": false,
@@ -54,6 +42,16 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_get_my_posts",
+              "name": "get_my_posts",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "appsmith.store.Username"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
