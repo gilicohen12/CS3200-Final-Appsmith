@@ -12,7 +12,6 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tableData"},
         {"key": "primaryColumns.Date.computedValue"},
         {"key": "primaryColumns.MealID.computedValue"},
         {"key": "primaryColumns.MealType.computedValue"},
@@ -24,7 +23,8 @@
         {"key": "primaryColumns.Ing_Name.computedValue"},
         {"key": "primaryColumns.Protein.computedValue"},
         {"key": "primaryColumns.TagID.computedValue"},
-        {"key": "primaryColumns.Veggie.computedValue"}
+        {"key": "primaryColumns.Veggie.computedValue"},
+        {"key": "tableData"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 1,
