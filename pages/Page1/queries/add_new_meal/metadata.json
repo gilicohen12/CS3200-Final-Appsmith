@@ -7,7 +7,6 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
         "url": "http://web:4000"
       },
       "invalids": [],
@@ -42,7 +41,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
@@ -61,9 +60,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-14T16:39:58Z"
+    "createdAt": "2024-04-18T15:14:40Z"
   },
   "id": "Page1_add_new_meal",
   "deleted": false,
-  "gitSyncId": "6618544fb2a21e0557e7d4ab_661c06de3485b93a01c745a0"
+  "gitSyncId": "661ef9990b9a000d12704817_662138e00b9a000d1270483e"
 }
