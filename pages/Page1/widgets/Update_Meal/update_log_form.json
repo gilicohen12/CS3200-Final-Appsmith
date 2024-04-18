@@ -186,9 +186,9 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 9,
+                "position": 3,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 6,
                 "fieldType": "Number Input"
             },
             "MealType": {
@@ -208,7 +208,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 7,
+                "position": 1,
                 "isDisabled": false,
                 "sourceData": "Breakfast",
                 "fieldType": "Text Input"
@@ -230,7 +230,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 3,
+                "position": 6,
                 "isDisabled": false,
                 "sourceData": 1,
                 "fieldType": "Number Input"
@@ -252,9 +252,9 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 4,
+                "position": 7,
                 "isDisabled": false,
-                "sourceData": 0,
+                "sourceData": 5,
                 "fieldType": "Number Input"
             },
             "TagID": {
@@ -276,7 +276,7 @@
                 "iconAlign": "left",
                 "position": 10,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 41,
                 "fieldType": "Number Input"
             },
             "Fats": {
@@ -296,9 +296,9 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 1,
+                "position": 5,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 3,
                 "fieldType": "Number Input"
             },
             "Veggie": {
@@ -318,7 +318,7 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 11,
+                "position": 9,
                 "isDisabled": false,
                 "sourceData": 0,
                 "fieldType": "Number Input"
@@ -362,9 +362,9 @@
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 6,
+                "position": 11,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 41,
                 "fieldType": "Number Input"
             },
             "Date": {
@@ -400,13 +400,13 @@
                 "dataType": "string",
                 "accessor": "Ing_Name",
                 "isVisible": true,
-                "label": "Ing Name",
+                "label": "Ingredient Name",
                 "originalIdentifier": "Ing_Name",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_log_form.sourceData, update_log_form.formData, update_log_form.fieldState)}}",
                 "children": {},
                 "isSpellCheck": false,
                 "iconAlign": "left",
-                "position": 5,
+                "position": 4,
                 "isDisabled": false,
                 "sourceData": "Banana",
                 "fieldType": "Text Input"
@@ -430,7 +430,7 @@
                 "iconAlign": "left",
                 "position": 8,
                 "isDisabled": false,
-                "sourceData": 2,
+                "sourceData": 7,
                 "fieldType": "Number Input"
             }
         },
