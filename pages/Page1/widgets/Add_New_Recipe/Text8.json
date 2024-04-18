@@ -26,7 +26,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Add New Meal",
+    "text": "Add New Recipe",
     "key": "nz0lb142an",
     "isDeprecated": false,
     "rightColumn": 41,
