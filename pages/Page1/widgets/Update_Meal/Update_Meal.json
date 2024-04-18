@@ -12,7 +12,7 @@
         "notification"
     ],
     "topRow": 0,
-    "bottomRow": 1070,
+    "bottomRow": 107,
     "parentRowSpace": 1,
     "type": "MODAL_WIDGET",
     "hideCard": false,
@@ -81,7 +81,7 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 0,
-    "onClose": "{{get_all_meals.run()}}",
+    "onClose": "{{closeModal('Update_Meal');}}",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
