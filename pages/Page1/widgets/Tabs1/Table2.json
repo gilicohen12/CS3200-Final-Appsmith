@@ -27,7 +27,7 @@
         {"key": "tableData"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 1,
+    "leftColumn": 17,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -511,7 +511,7 @@
     "key": "o01m6fzgku",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 45,
     "textSize": "0.875rem",
     "widgetId": "qajgxvkyk7",
     "minWidth": 450,
